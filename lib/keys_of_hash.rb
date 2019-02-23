@@ -3,7 +3,7 @@ class Hash
     arr = []
     self.each do|animal, place|
      arguments.each do|i|
-     if place == i
+     if i == place
        arr << animal
      end
     end
