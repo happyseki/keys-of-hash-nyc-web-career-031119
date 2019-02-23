@@ -1,6 +1,7 @@
 class Hash
   def keys_of(arguments)
-    
-    # code goes here
+    animal.collect do||
+     end
+     # code goes here
   end
 end
