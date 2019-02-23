@@ -1,6 +1,6 @@
 class Hash
   def keys_of(arguments)
-    animals.collect do|animal, place|
+    self.collect do|animal, place|
      if animal == arguments
        return place
      end
