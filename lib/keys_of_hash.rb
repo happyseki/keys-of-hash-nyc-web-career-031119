@@ -1,8 +1,8 @@
 class Hash
   def keys_of(arguments)
     arr = []
-    self.each do|animal, place|
      arguments.each do|i|
+    self.each do|animal, place|
      if i == place
        arr << animal
      end
