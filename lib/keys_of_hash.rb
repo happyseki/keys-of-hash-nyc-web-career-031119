@@ -1,10 +1,12 @@
 class Hash
   def keys_of(arguments)
-    self.collect do|animal, place|
+    arr = []
+    self.each do|animal, place|
      if animal == arguments
-       return place
+       arr << place
      end
      end
+     return arr
      # code goes here
   end
 end
